@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+img{
+   
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+}
+
+p{
+    border: 2px solid red;
+    padding: 15px;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}

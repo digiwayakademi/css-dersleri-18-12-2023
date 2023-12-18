@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.section-title{
+    text-align: center;
+}
+
+.plan{
+   
+   padding: 5px;
+    text-align: center;      
+    width: 33.3%;
+    float: left;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.container{
+    width: 1000px;
+    margin: 50px auto;
+}
+
+.plan-pad{
+    padding: 16px;  
+    background-color: #fffe4c;
+    border-radius: 12px;
+    cursor: pointer;
+    transition-duration: .6s;
+    box-shadow: 0px 7px 29px 0px rgba(100,100,111,0.2);
+}
+
+.plan-pad:hover{
+    transform: scale(1.07);
+    border: 5px solid coral;
+    box-shadow: 0px 7px 29px 0px rgba(100,100,111,0.8);
+}
+
+.plan-pad ul{
+    list-style-type: none;
+}
+
+.plan-pad ul li{
+    margin: 10px 0px;
+    font-weight: 600;
+}
+
+.plan-pad h2{
+    background-color: #4d43ee;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.plan-pad h3{
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#plan-pad-second{
+    background-color: #000;
+    color: #ccc;
+}
+
+#plan-pad-second h2{
+    background-color: #141414;
+    color: #fff;
+    border-radius: 8px;
+    border: 2px solid #fff;
+}
+
+button{
+    background-color: #ff3300;
+    color: #fff;
+    padding: 7px 30px;
+    border: 2px solid #ff3300;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 16px;
+}
